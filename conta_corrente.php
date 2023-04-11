@@ -34,6 +34,10 @@
             $banco = "Banco Bradesco";
             echo "<br><strong>Nome do banco: </strong>" . $banco;
         }
+        else{
+            echo "<br>Atenção, você deve cadastrar os dados primeiro!";
+            echo "<p><a href= 'banco.php'>Cadastro da conta corrente</a></p>";
+        }
 
 
 
