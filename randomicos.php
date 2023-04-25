@@ -10,13 +10,14 @@
     <?php
         echo "<h3>NÚMEROS RANDÔMICOS - LOOPING WHILE</h3>";
         $numero = 0;
-        $contador = 0;
-        while (contador < 7)
+        $contador = 1;
+        while ($contador < 7)
         {
             $numero = rand(1, 10); //comando rand, gera numeros randomicos
-            echo $numero;
+            echo "Numero $contador gerado foi: " . $numero . "<br>";
             $contador++;
         }
+        echo "<hr><h2>Fim do Looping <strong><em>WHILE</em></strong></h2>";
     ?>
 </body>
 </html>
