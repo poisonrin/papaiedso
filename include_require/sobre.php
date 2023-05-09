@@ -15,6 +15,7 @@
                 existe algum erro ao chamar o arquivo, ao contrário da
                 <strong>função require</strong>!";
             echo "</p>";
+        require "rodape.php";
     ?>
 </body>
 </html>
