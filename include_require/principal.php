@@ -10,12 +10,11 @@
     <?php
         include "cabecalho.php"; //carrega (importa o arquivo cabecalho.php)
         include "rodape.php";
-
     ?>
     <form name="strings" method="post" action="">
         <p>
             <label for="nome">Nome:</label>
-            <label type="text" name="nome" maxLength="40" required>
+            <input type="text" name="nome" maxLength="40" required>
         </p>
         <p>
             <input type="submit" name="executar" value="Executar">
@@ -24,7 +23,7 @@
     <?php
         if(isset($_POST["executar"]))
         {
-            $nome=$POST["nome"];
+            $nome=$_POST["nome"];
             $nome=strtolower($nome);
             echo "<h3>Converte para minúsculas</h3>";
             echo "Nome: $nome";
