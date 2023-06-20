@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: block;
+}
+label, input{
+    border-radius: 3px;
+}
+main{
+    color: white;
+    padding: 3%;
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 10%;
+    height: 25%;
+    background-color: rgb(35, 82, 163);
+    border-radius: 3%;
+}

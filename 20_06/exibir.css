@@ -1,0 +1,20 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 82, 163);
+}
+main{
+    color: white;
+    padding: 2%;
+    padding-top: 1%;
+    width: 10%;
+    height: 15%;
+    background-color: rgb(35, 35, 136);
+    border-radius: 3%;
+}
+h3{
+    text-align: center;
+}
