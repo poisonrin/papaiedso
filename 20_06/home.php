@@ -14,15 +14,21 @@
             echo "<form name= 'sessao' method= 'post' action=''>";
                 echo "<p>";
                     echo "<label for='nome'>Nome:</label>";
-                    echo "<input type='text' name='nome' maxlenght='40' required>";
+                    echo "<input type='text' name='nome' maxlenght='40' autocomplete='off' required>";
                 echo "</p>";
                 echo "<p>";
                     echo "<label for='senha'>Senha:</label>";
-                    echo "<input type='number' name='senha' maxlenght='8' required>";
+                    echo "<input type='password' name='senha' maxlenght='8' autocomplete='off' required>";
                 echo "</p>";
                 echo "<p>";
                     echo "<input type='submit' name='enviar' value='Enviar'>";
                 echo "</p>";
+                echo "<section>";
+                    echo "<p>";
+                        echo "<a href= 'exibir.php'>Exibir</a>";
+                        echo "<a href= 'logout.php'>Sair</a>";
+                    echo "</p>";
+                echo "</section>";
             echo "</form>";
             if(isset($_POST["enviar"]))
             {
@@ -35,9 +41,5 @@
             }
         echo "</main>";
     ?>
-    <p>
-        <a href= "exibir.php">Exibir</a>
-        <a href= "logout.php">Sair</a>
-    </p>
 </body>
 </html>

@@ -20,6 +20,10 @@
 
             echo "<strong>Nome: </strong>" . $nome;
             echo "<br><strong>Senha: </strong>" . $senha;
+            echo "<p>";
+                    echo "<a href= 'home.php'>Home</a>";
+                    echo "<a href= 'logout.php'>Sair</a>";
+            echo "</p>";
         echo "</main>";
     ?>
 </body>

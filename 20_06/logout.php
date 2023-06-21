@@ -3,5 +3,6 @@
     session_start();
     session_destroy();
 ?>
-
-<p><a href="home.php">HOME</a></p>
+<main>
+    <p><a href="home.php">HOME</a></p>
+</main>
